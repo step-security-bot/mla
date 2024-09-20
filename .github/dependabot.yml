@@ -81,3 +81,38 @@ updates:
 
     # Limit the number of open pull requests Dependabot can have at one time
     open-pull-requests-limit: 5
+
+  - package-ecosystem: npm
+    directory: /apps/desktop
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /apps/web
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /packages/config-tailwind
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /packages/config-typescript
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /packages/react-mla
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /packages/webcomponent-mla
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /tools/icon-scripts
+    schedule:
+      interval: daily
